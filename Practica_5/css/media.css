@@ -1,0 +1,116 @@
+@media (min-width: 1900px) {
+  .choice::before {
+    width: 42%;
+  }
+}
+
+@media (min-width: 2360px) {
+  .choice::before {
+    width: 44%;
+  }
+}
+
+@media (max-width: 1180px) {
+  .offers__item-inner {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .offers__item-cart {
+    margin-bottom: -1px;
+  }
+  .offers__item {
+    margin-right: -1px;
+  }
+  .choice {
+    background-color: #fff;
+  }
+  .choice::before {
+    width: 100%;
+    height: 65%;
+  }
+  .choice__inner {
+    display: block;
+    text-align: center;
+  }
+  .choice__cart {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 92px;
+  }
+  .choice__item {
+    margin-right: -1px;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    text-align: left;
+  }
+  .footer__end {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .footer__end-info {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 920px) {
+  .money__receive {
+    margin-right: 0;
+    padding: 19px 15px;
+    max-width: 310px;
+  }
+}
+
+@media (max-width: 760px) {
+  .money {
+    background: none;
+    position: relative;
+    z-index: 1;
+    padding: 50px 0px 67px;
+  }
+  .money::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 650px;
+    background-color: #061147;
+  }
+  .money__inner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    z-index: 2;
+    position: relative;
+  }
+  .money__loan {
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 620px) {
+  .money {
+    padding: 20px 0px 100px;
+  }
+  .offers__inner {
+    padding-top: 0;
+  }
+  .offers__item-cart {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .offers__item {
+    margin-right: 0px;
+    margin-bottom: -1px;
+  }
+}
