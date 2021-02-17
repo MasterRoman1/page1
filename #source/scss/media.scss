@@ -1,0 +1,104 @@
+@media (min-width: 1900px) {
+    .choice::before {
+        width: 42%;
+    }
+}
+
+@media (min-width: 2360px) {
+    .choice::before {
+        width: 44%;
+    }
+}
+
+@media (max-width: 1180px) {
+    .offers__item-inner {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .offers__item-cart {
+        margin-bottom: -1px;
+    }
+    .offers__item {
+        margin-right: -1px;
+    }
+    .choice {
+        background-color: #fff;
+        &::before {
+            width: 100%;
+            height: 65%;
+        }
+        &__inner {
+            display: block;
+            text-align: center;
+        }
+        &__cart {
+            justify-content: center;
+            margin-top: 92px;
+        }
+        &__item {
+            margin-right: -1px;
+            box-shadow: none;
+            text-align: left;
+        }
+    }
+    .footer__end {
+        justify-content: space-between;
+    }
+    .footer__end-info {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 920px) {
+    .money__receive {
+        margin-right: 0;
+        padding: 19px 15px;
+        max-width: 310px;
+    }
+
+}
+
+@media (max-width: 760px) {
+    .money {
+        background: none;
+        position: relative;
+        z-index: 1;
+        padding: 50px 0px 67px;
+        &::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 650px;
+            background-color: #061147;
+        }
+    }
+    .money__inner {
+        flex-direction: column;
+        z-index: 2;
+        position: relative;
+    }
+    .money__loan {
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 620px) {
+    .money {
+        padding: 20px 0px 100px;
+    }
+    .offers__inner {
+        padding-top: 0;
+    }
+    .offers__item-cart {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .offers__item {
+        margin-right: 0px;
+        margin-bottom: -1px;
+    }
+}
+
